@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import {Html5QrcodeScanner} from 'html5-qrcode'; // Make sure to provide the correct path to Html5QrcodePlugin
 
-interface AppState {
-  // Define state properties here if needed
-}
+// interface AppState {
+//   // Define state properties here if needed
+// }
 
-class App extends Component<{}, AppState> {
-  constructor(props: {}) {
+class App extends React.Component {
+  constructor(props) {
     super(props);
 
     // This binding is necessary to make `this` work in the callback.
@@ -23,11 +23,10 @@ class App extends Component<{}, AppState> {
           disableFlip={false}
           qrCodeSuccessCallback={this.onNewScanResult}
         />
-      </div>
-    );
+      </div>);
   }
 
-  onNewScanResult(decodedText: string, decodedResult: any) {
+  onNewScanResult(decodedText, decodedResult) {
     // Handle the result here.
   }
 }
