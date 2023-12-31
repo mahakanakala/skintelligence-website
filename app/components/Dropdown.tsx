@@ -31,13 +31,13 @@ const questionsAndAnswers: QuestionAndAnswer[] = [
     answer: "The negative correlation of -0.35 between brand prestige and normalized toxicity in the cosmetic industry suggests that, on average, brands with higher prestige tend to have lower levels of toxicity** in their products. This correlation reflects the *growing consumer demand for safer and more environmentally friendly products*. It indicates that prestigious brands are likely prioritizing the development of safer and less toxic cosmetic products to meet consumer expectations.",
     image: "images/brand_prestige_vs_toxicity.png",
   },
-  {
-    question:
-      "Does geographic regulations affect the number of toxins in the products?",
-    answer:
-      "Map all of the brands and find their origins, then using bokeh find the number of toxins they have and make it a bubble map with the largest bubble with the most toxins",
-    image: "images/usa_tod.png",
-  },
+  // {
+  //   question:
+  //     "Does geographic regulations affect the number of toxins in the products?",
+  //   answer:
+  //     "Map all of the brands and find their origins, then using bokeh find the number of toxins they have and make it a bubble map with the largest bubble with the most toxins",
+  //   image: "images/usa_tod.png",
+  // },
 ];
 
 const DropDown: React.FC = () => {

@@ -6,18 +6,17 @@ import Citations from '../components/Citations'
 
 export default function About() {
   return (
-    <main className={styles.aboutPage}>
+    <main className={styles.mainWrapper}>
       <h1 className={styles.smallWebTitle}>About</h1>
       <div className={styles.aboutQuestionBox}>
         <h2 className={styles.aboutQuestion}>What are Toxins in Skincare/Makeup?</h2>
         <p className={styles.definition}> Ingredients in products that are classified as endocrine disruptors, carcinogens, mutagens (causing genetic mutations), estrogen mimickers,
-          and /or allergens are harmful to the environment and aquatic life.</p>
+          and/or allergens are harmful to the environment and aquatic life.</p>
       </div>
       <div className={styles.aboutQuestionBox}>
         <h2 className={styles.aboutQuestion}>Why is this important?</h2>
         <p className={styles.definition}> It is so important to be self aware of the products we use. Big companies love to sneak in nasty
-          ingredients becuase they are cheaper or for conveiece without informing the public of associated risks. This project is to help the general public
-          find any harmful chemicals in their products.</p>
+          ingredients becuase they are cheaper or convenient without informing the public of associated risks. This project is to help the general public find any harmful chemicals in their products.</p>
       </div>
       <div className={styles.aboutQuestionBox}>
         <h3 className={styles.aboutQuestion}> Classification of Hazard Levels</h3>
@@ -25,7 +24,7 @@ export default function About() {
           <div className={styles.lowBox}>
             <h4 className={styles.lowTitle}>Low: allergens, harmful to the environment, irritation </h4>
             <ul className={styles.toxinsNames}>
-              <li>
+              <li className={styles.toxinNamesFont}>
                 <u>Ethanolamine</u>: contact can severely irritate and burn the skin and eyes, with possible eye damage.
               </li>
               <li>

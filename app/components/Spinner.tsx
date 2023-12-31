@@ -48,11 +48,11 @@ const Spinner = () => {
   return (
     <div className={styles.spinnerContainer}>
       <div className={styles.arrowsAndBox}>
-        <IoIosArrowBack className={styles.backArrow} onClick={handlePrevSpinner} />
+        {/* <IoIosArrowBack className={styles.backArrow} onClick={handlePrevSpinner} /> */}
         <div className={styles.dataVisual}>
           <img src={currentSpinner} alt="Spinner" className={styles.spinnerImage} />
         </div>
-        <IoIosArrowForward className={styles.forwardArrow} onClick={handleNextSpinner} />
+        {/* <IoIosArrowForward className={styles.forwardArrow} onClick={handleNextSpinner} /> */}
       </div>
       <div className={styles.spinnerContent}>
         <div className={styles.spinnerCircles}>
@@ -70,7 +70,7 @@ const Spinner = () => {
           <p className={styles.spinnerDescription}>{spinners[spinnerIndex].description}
           </p>
           <div className={styles.spinnerGithubIconContainer}>
-            <a href="https://github.com/mahakanakala/skintelligence" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mahakanakala/skintelligence/blob/main/notebooks/02_data_visuals.ipynb" target="_blank" rel="noopener noreferrer">
             View on Github
               <AiFillGithub />
               </a>
